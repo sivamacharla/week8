@@ -59,11 +59,9 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='700' alt='Video Walkthrough' />
+https://submissions.us-east-1.linodeobjects.com/web102/sdxsvCti.gif
 
-<!-- Replace with actual gif link once recorded -->
 
-GIF created with: **ScreenToGif (Windows)**
 
 ---
 
