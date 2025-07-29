@@ -1,4 +1,4 @@
-# Web Development Project 7 - Crewmates App
+# Web Development Project - Crewmates App (week 8)
 
 Submitted by: **Siva Macharla**
 
