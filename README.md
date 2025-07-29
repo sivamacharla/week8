@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Web Development Project 7 - Crewmates App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Submitted by: **Siva Macharla**
 
-## Available Scripts
+This web app: **allows users to create, view, update, and delete "crewmates" with unique attributes like name, speed, and color. The app uses Supabase as a backend and React for the frontend.**
 
-In the project directory, you can run:
+Time spent: **8** hours spent in total
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Required Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The following **required** functionality is completed:
 
-### `npm test`
+- [x] **The web app contains a page that features a create form to add a new crewmate**
+  - Users can name the crewmate
+  - Users can set the crewmate’s attributes by selecting values from dropdowns
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [x] **The web app includes a summary page of all the user’s added crewmates**
+  - The web app contains a summary page dedicated to displaying all the crewmates the user has made so far
+  - The summary page is sorted by creation date, with the most recent crewmates shown first
 
-### `npm run build`
+- [x] **A previously created crewmate can be updated from the list of crewmates in the summary page**
+  - Each crewmate has an edit button that opens an update form for the selected crewmate
+  - The update form displays current crewmate attributes
+  - Changes are reflected immediately on both the update form and the summary page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [x] **A previously created crewmate can be deleted from the crewmate list**
+  - Users can delete a crewmate using a button in the edit form
+  - Deleted crewmates are removed from the summary page instantly
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [x] **Each crewmate has a direct, unique URL link to an info page about them**
+  - Clicking a crewmate in the summary page navigates to a detail view
+  - The detail page includes extra information about the crewmate
+  - The user can navigate to the edit form from the detail page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Optional Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The following **optional** features are implemented:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [ ] A crewmate can be given a category upon creation which restricts their attribute value options
+- [ ] A section of the summary page displays statistics about the user's crewmates
+- [ ] A custom “success” metric changes the visual appearance of crewmates based on team strength
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Additional Features
 
-## Learn More
+- [x] Responsive grid layout for crewmate summary cards
+- [x] CSS-styled edit and detail forms for clean user experience
+- [x] Unique URLs for each crewmate using React Router
+- [x] Supabase integration for real-time CRUD operations
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Video Walkthrough
 
-### Code Splitting
+Here's a walkthrough of implemented user stories:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='700' alt='Video Walkthrough' />
 
-### Analyzing the Bundle Size
+<!-- Replace with actual gif link once recorded -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+GIF created with: **ScreenToGif (Windows)**
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Notes
 
-### Advanced Configuration
+Challenges encountered:
+- Setting up and testing Supabase Row-Level Security (RLS)
+- Ensuring data consistency across pages after updates or deletions
+- Styling components to work well across different screen sizes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
