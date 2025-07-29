@@ -1,0 +1,39 @@
+body {
+  background-color: #1a1a1a;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+button {
+  padding: 0.6em 1em;
+  margin: 0.5em;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+.crewmate-card {
+  background-color: #2d2d2d;
+  border: 2px solid #888;
+  border-radius: 10px;
+  margin: 1em auto;
+  padding: 1em;
+  width: 250px;
+}
+
+.card-actions {
+  margin-top: 1em;
+}
+
+.home-buttons {
+  margin-top: 2em;
+}
